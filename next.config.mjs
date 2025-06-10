@@ -1,5 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
+  basePath: '/meetsync',
+  assetPrefix: '/meetsync',
   eslint: {
     ignoreDuringBuilds: true,
   },
